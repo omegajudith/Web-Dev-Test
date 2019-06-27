@@ -1,0 +1,87 @@
+/* General styling for the body */
+body, html{
+    margin: 0px;
+    padding: 0px;
+    width:80%;
+    margin: 0 10% 0 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Styling for the head section */
+.head{
+    background-color: grey;
+    padding: 15px 0px 15px 5px;
+    margin: 0px 0 20px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.head p{
+    text-align: center;
+}
+/* Styling for the navigation bar */
+.navigation a{
+    color: white;
+    background-color: #3a7d86;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+}
+.navigation a:hover{
+    background:#62acb7;
+    color: white;
+}
+/* General styling for the page content */
+.content{
+    margin: 15px 0px 0px 0px;
+    background-color: #365458;
+    border-radius: 10px;
+}
+.contentBody{
+    display: flex;
+}
+/* Styling for the contact form  */
+form{
+    margin: 0 0 0 225px;
+}
+form p{
+    color: white;
+    font-size: 25px;
+    padding: 10px 0 0px 0;
+}
+label{
+    color: white;
+    padding: 20px 0 20px 0;
+}
+input{
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 15px 0;
+}
+textarea{
+    border-radius: 5px;
+}
+/* Styling for the submission button */
+.button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.button:hover{
+    background-color: grey;
+    color: black;
+    border: 1px solid grey;
+}
+/* Styling for the footer */
+.footer{
+    position: fixed;
+    width: 64%;
+    height: 35px;
+    margin: 5px 0 0 0;
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer p{
+    text-align: center;
+}
