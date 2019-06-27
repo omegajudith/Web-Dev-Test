@@ -1,0 +1,85 @@
+/* General styling for the body */
+body, html{
+    margin: 0px;
+    padding: 0px;
+    width:80%;
+    margin: 0 10% 0 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Styling for the head section */
+.head{
+    background-color: grey;
+    padding: 15px 0px 15px 5px;
+    margin: 0px 0 20px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.head p{
+    text-align: center;
+}
+/* Styling for the navigation bar */
+.navigation a{
+    color: white;
+    background-color: #3a7d86;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+}
+.navigation a:hover{
+    background:#62acb7;
+    color: white;
+}
+/* Styling for the body content */
+.content{
+    margin: 15px 0 0 0;
+    display: flex;
+    height: 502px;
+}
+.contentBody div{
+    width: 530px;
+    height: 90px;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px 0 5px 10px;
+    background-color: rgb(20, 15, 15);
+}
+.contentImages div{
+    width: 194px;
+    height: 90px;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px 10px 5px 5px;
+    background-color: rgb(20, 15, 15);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contentHead div{
+    height: 70px;
+    width: 125px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px 0 15px 10px;
+    background-color: #3a7d86;
+}
+img{
+    width: 200px;
+    height: 85px;
+    border-radius: 10px;
+}
+/* Styling for the footer */
+.footer{
+    position: fixed;
+    width: 64%;
+    height: 35px;
+    margin: 5px 0 0 0;
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer p{
+    text-align: center;
+}

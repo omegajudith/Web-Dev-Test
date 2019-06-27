@@ -1,0 +1,66 @@
+/* General stsyling for the body */
+body, html{
+    margin: 0px;
+    padding: 0px;
+    width:80%;
+    margin: 0 10% 0 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Styling for the head */
+.head{
+    background-color: grey;
+    padding: 15px 0px 15px 5px;
+    margin: 0px 0 20px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.head p{
+    text-align: center;
+}
+/* Styling for the Navigation bar */
+.navigation a{
+    color: white;
+    background-color: #3a7d86;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+}
+.navigation a:hover{
+    background:#62acb7;
+    color: white;
+}
+/* Styling for the home page content */
+.content{
+    height: 500x;
+    display: flex;
+}
+img{
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #3a7d86;
+    margin: 15px 20px 0 0;
+}
+.about div{
+    background-color: #3a7d86;
+    width: 550px;
+    border-radius: 10px;
+    height: 29%;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 20px 0 0;
+    padding: 5px 0 0 0;
+}
+/* Styling for the footer */
+.footer{
+    position: fixed;
+    width: 64%;
+    height: 35px;
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer p{
+    text-align: center;
+}
